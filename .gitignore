@@ -1,0 +1,42 @@
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+.next-dev/
+out/
+dist/
+
+# Logs
+*.log
+
+# Process
+*.pid
+
+# TypeScript
+*.tsbuildinfo
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# BEpusdt local
+docker/bepusdt/conf.toml
+docker/bepusdt/data/
